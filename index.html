@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>IceCream Shoppe</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS v5.0.2 -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <header class="container-fluid bg-info ">
+        <div class="row">
+            <div class="col">
+                <h3 class="text-center py-2">IceCream Parlor</h3>
+            </div>
+        </div>
+    </header>
+    <main class="container ">
+        <div class="row">
+            <div class="col-8">
+                <h1 class="m-3 border-bottom">Flavors</h1>
+                <div class="row justify-content-around " id="iceCream-flavors">
+                </div>
+                <h1 class=" m-3 border-bottom">Vessels</h1>
+                <div class="row justify-content-around" id="iceCream-vessels">
+                </div>
+                <h1 class=" m-3 border-bottom">Toppings</h1>
+                <div class="row justify-content-around" id="iceCream-toppings">
+                </div>
+            </div>
+            <div class="col-4">
+                <h2 class="m-3">Order</h2>
+                <ol id="items-ordered">
+                    <li class="d-flex justify-content-between">
+                        <p class="m-1">name</p>
+                        <p class="m-1">price</p>
+                    </li>
+                </ol>
+                <div class="d-flex justify-content-between">
+                    <h3>Total: $<span id="total">0.00</span></h3>
+                    <button class="btn" id="purchase-button" onclick="purchase()">Purchase</button>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer class="container-fluid bg-info mt-5">
+        <p class="text-center m-0"><em>Willed into existence</em></p>
+    </footer>
+
+    <!-- Bootstrap JavaScript Libraries -->
+    <script src="app.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+        integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+        integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

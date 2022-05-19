@@ -1,0 +1,19 @@
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.object-cover {
+
+    object-fit: cover;
+}
+
+main {
+
+    background-color: lightyellow;
+}
+
+#purchase-button {
+    background-color: lightgreen;
+}
